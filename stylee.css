@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: "Segoe UI", sans-serif;
+}
+
+::selection {
+    background: #f58b8b;
+    color: #fff;
+}
+
+div.header{
+    background: url(images/bb1.jpg);
+    width: 1366px;
+    height: 315px;
+    position: absolute;
+}
+div.text h1{
+    float: none;
+    text-align: center;
+    margin-top: 25px;
+    color: #2f3b96;
+}
+a {
+    text-decoration: none;
+}
+
+.color {
+    color: #EEA101;
+}
+.color:hover {
+    color: #acdbd2;
+    transition: all .7s ease; 
+}
+.color:active {color: #e22929}
+
+.afisha1{
+   float: left;
+   margin-top: 50px;
+   margin-left: 210px; 
+}
+hr.Gline{
+  border: dashed 1px #797676;
+  margin: 6px
+}
+.St {
+   float: left;
+   margin-left: 8px;
+   font-family: fantasy;
+   margin-top: 2px;
+   color: #4285bf
+}
+.C {
+   float: right;
+   margin-right: 12px;
+   font-family: fantasy;
+   margin-top: 2px;
+   color: #4285bf
+}
+div.tree1::before{
+    content: ''; 
+    position: absolute;           
+    border: 20px solid transparent;	
+    border-right: 20px solid #e2d5d5;
+    margin: 150px;
+    border-bottom-width: 12px; border-top-width: 12px; border-right-width: 12px;
+    margin-top: 40px;
+    margin-left: 81px;
+}
+div.girl{
+    float: right;
+    margin-left: 18px;
+    width: 350px;
+    background: #e2d5d5;
+    padding: 4px 7px 8px;
+    font-family: cursive;
+    color: #5d2828
+}
+
+hr.Gline2{
+  border: dashed 1px #797676;
+  margin: 6px
+}
+.Ds{
+   float: left;
+   margin-left: 8px;
+   font-family: fantasy;
+   margin-top: 2px;
+   color: #4285bf
+}
+.C2{
+   float: right;
+   margin-right: 12px;
+   font-family: fantasy;
+   margin-top: 2px; 
+   color: #4285bf;
+}
+div.tree2::before{
+    content: ''; 
+    position: absolute;           
+    border: 20px solid transparent;	
+    border-right: 20px solid #e2d5d5;
+    margin: 150px;
+    border-bottom-width: 12px; border-top-width: 12px; border-right-width: 12px;
+    margin-top: 40px;
+    margin-left: 81px;
+}
+
+.afisha2{
+    float: right;
+    margin-top: 50px;
+    margin-right: 165px;
+}
+div.man{
+    float: right;
+    margin-left: 18px;
+    width: 350px;
+    background: #e2d5d5;
+    padding: 4px 7px 8px;
+    font-family: cursive;
+    color: #5d2828;
+} 
+.Social{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 8px;
+}
